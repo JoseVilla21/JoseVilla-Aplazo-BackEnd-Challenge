@@ -5,7 +5,7 @@ spring:
     active: localhost
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://postgres:5432/postgres #jdbc:postgresql://localhost:5432/postgres -> para local sin docker
     username: postgres
     password: camilo300zx
     driver-class-name: org.postgresql.Driver
